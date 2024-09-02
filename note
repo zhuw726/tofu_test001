@@ -1,0 +1,7 @@
+go run main.go    
+
+
+tofu init -var="aws_region=us-east-1" ; tofu apply --auto-approve
+
+
+aws s3 rm s3://mybucket-zoowj-20240901/key

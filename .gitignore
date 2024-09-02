@@ -1,0 +1,6 @@
+.terragrunt-cache
+.terraform
+.DS_Store
+.terraform.lock.hcl
+*.tfstate*
+*.tfvars*
