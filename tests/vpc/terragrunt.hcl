@@ -1,6 +1,6 @@
 
 terraform {
-  source = "../../module/vpc"  # Adjust this to the path of your Terraform module
+  source = "../../module/vpc" # Adjust this to the path of your Terraform module
 }
 
 inputs = {

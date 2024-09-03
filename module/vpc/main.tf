@@ -19,7 +19,7 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name = "main"
-    Da=timestamp()
+    Da   = timestamp()
   }
 }
 
